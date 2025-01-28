@@ -1,0 +1,266 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animasu.cc&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 21370,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "version": 10,
+        "internalName": "Animasu",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Animasu.cs3",
+        "name": "Animasu"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.dubbindo.xyz&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 11881,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Cartoon",
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "Dubbindo",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dubbindo.cs3",
+        "name": "Dubbindo"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Funmovieslix.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 14347,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Phisher98"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Funmovieslix",
+        "description": "Indonesia Source",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Funmovieslix.cs3",
+        "name": "Funmovieslix"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=gomov.bio&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 33020,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Hexated",
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 33,
+        "internalName": "Gomov",
+        "description": "Includes: DutaMovie, Ngefilm, Nodrakorid, Multiplex, Pusatfilm",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Gomov.cs3",
+        "name": "Gomov"
+    },
+    {
+        "iconUrl": "hhttps://tv7.idlix.asia/wp-content/uploads/2020/07/logov4.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 27312,
+        "status": 0,
+        "language": "id",
+        "authors": [
+            "Hexated",
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime",
+            "AsianDrama"
+        ],
+        "version": 19,
+        "internalName": "Idlix",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Idlix.cs3",
+        "name": "Idlix"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kuramanime.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 20486,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 39,
+        "internalName": "Kuramanime",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kuramanime.cs3",
+        "name": "Kuramanime"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=amp.lk21official.mom&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 19240,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Hexated",
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 21,
+        "internalName": "LayarKaca",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/LayarKaca.cs3",
+        "name": "LayarKaca"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nimegami.id&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 20403,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 11,
+        "internalName": "Nimegami",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Nimegami.cs3",
+        "name": "Nimegami"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=oploverz.care&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 17580,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 30,
+        "internalName": "Oploverz",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Oploverz.cs3",
+        "name": "Oploverz"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=otakudesu.watch&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 20914,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 16,
+        "internalName": "Otakudesu",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Otakudesu.cs3",
+        "name": "Otakudesu"
+    },
+    {
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ww03.pencurimovie.bond&size=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 12423,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Phisher98"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 3,
+        "internalName": "Pencurimovie",
+        "description": "Pencurimovie ",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Pencurimovie.cs3",
+        "name": "Pencurimovie"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://samehadaku.world&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 15928,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "version": 22,
+        "internalName": "Samehadaku",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Samehadaku.cs3",
+        "name": "Samehadaku"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=useetv.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "fileSize": 10044,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 2,
+        "internalName": "UseeTv",
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/UseeTv.cs3",
+        "name": "UseeTv"
+    }
+]

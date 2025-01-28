@@ -1,0 +1,8 @@
+{
+    "name": "Indostream Repo",
+    "description": "Cloudstream Indonesia Repo",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/plugins.json"
+    ]
+}
