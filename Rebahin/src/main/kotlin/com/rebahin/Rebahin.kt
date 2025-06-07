@@ -12,12 +12,12 @@ import java.net.URI
 import org.jsoup.nodes.Element
 
 open class Rebahin : MainAPI() {
-    override var mainUrl = "https://rebahinxxi1.cfd/"
+    override var mainUrl = "https://rebahinxxi1.motorcycles/"
     private var directUrl: String? = null
     override var name = "Rebahin"
     override val hasMainPage = true
     override var lang = "id"
-    open var mainServer = "https://rebahinxxi1.cfd/"
+    open var mainServer = "https://rebahinxxi1.motorcycles/"
     override val supportedTypes =
             setOf(TvType.Movie, TvType.TvSeries, TvType.Anime, TvType.AsianDrama)
 
