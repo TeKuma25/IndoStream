@@ -100,7 +100,7 @@ open class Chillx : ExtractorApi() {
                         "Origin" to mainUrl,
                 )
 
-        M3u8Helper.generateM3u8(name, source ?: return, "$mainUrl/", headers = headers)
+        generateM3u8(name, source ?: return, "$mainUrl/", headers = headers)
                 .forEach(callback)
     }
 

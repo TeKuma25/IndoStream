@@ -85,7 +85,7 @@ class UseeTv : MainAPI() {
                 .mapNotNull { it.toSearchResult() }
     }
 
-    override suspend fun load(url: String): LoadResponse? {
+    override suspend fun load(url: String): LoadResponse {
         val document = app.get(url).document
         val content = document.selectFirst("div.d-flex.video-schedule-time p")?.text()?.split("•")
 

@@ -109,19 +109,22 @@ class Animasu : MainAPI() {
         val status = table?.selectFirst("span:contains(Status:) font")?.text()
         val trailer = document.selectFirst("div.trailer iframe")?.attr("src")
         val episodes =
-                document.select("ul#daftarepisode > li")
-                        .map {
-                            val link = fixUrl(it.selectFirst("a")!!.attr("href"))
-                            val name = it.selectFirst("a")?.text() ?: ""
-                            val episode =
-                                    Regex("Episode\\s?(\\d+)")
-                                            .find(name)
-                                            ?.groupValues
-                                            ?.getOrNull(0)
-                                            ?.toIntOrNull()
-                            Episode(link, episode = episode)
-                        }
-                        .reversed()
+            document.select("ul#daftarepisode > li")
+                .map {
+                    val link = fixUrl(it.selectFirst("a")!!.attr("href"))
+                    val episodeName = it.selectFirst("a")?.text() ?: "" // Use a more descriptive variable name
+                    val episodeNumber =
+                        Regex("Episode\\s?(\\d+)")
+                            .find(episodeName)
+                            ?.groupValues
+                            ?.getOrNull(1) // Corrected group index
+                            ?.toIntOrNull()
+                    newEpisode(link) { // 'link' is the 'data' argument
+                        this.name = episodeName // Set the name property
+                        this.episode = episodeNumber // Set the episode property
+                    }
+                }
+                .reversed()
 
         val tracker = APIHolder.getTracker(listOf(title), TrackerType.getTypes(type), year, true)
 
@@ -202,13 +205,4 @@ class Animasu : MainAPI() {
                 ?: Qualities.Unknown.value
     }
 
-    private fun Element.getImageAttr(): String {
-        return when {
-            this.hasAttr("src") -> this.attr("abs:src")
-            this.hasAttr("data-src") -> this.attr("abs:data-src")
-            this.hasAttr("data-lazy-src") -> this.attr("abs:data-lazy-src")
-            this.hasAttr("srcset") -> this.attr("abs:srcset").substringBefore(" ")
-            else -> this.attr("abs:src")
-        }
-    }
 }

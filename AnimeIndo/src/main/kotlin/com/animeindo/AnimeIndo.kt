@@ -109,7 +109,7 @@ class AnimeIndo : MainAPI() {
                     document.select("article.bs").mapNotNull {
                         val title = it.selectFirst("div.tt")!!.ownText().trim()
                         val href = it.selectFirst("a")!!.attr("href")
-                        val posterUrl = it.selectFirst("div.limit > img")!!.attr("src").toString()
+                        val posterUrl = it.selectFirst("div.limit > img")!!.attr("src")
                         val type = getType(it.select("div.type").text().trim())
                         newAnimeSearchResponse(title, href, type) { this.posterUrl = posterUrl }
                     }
@@ -152,15 +152,27 @@ class AnimeIndo : MainAPI() {
 
         val trailer = document.selectFirst("div.player-embed iframe")?.attr("src")
         val episodes =
-                document.select("div.eplister ul li")
-                        .mapNotNull {
-                            val header = it.selectFirst("a") ?: return@mapNotNull null
-                            val episode =
-                                    header.text().trim().replace("Episode", "").trim().toIntOrNull()
-                            val link = fixUrl(header.attr("href"))
-                            Episode(link, episode = episode)
-                        }
-                        .reversed()
+            document.select("div.eplister ul li")
+                .mapNotNull { element ->
+                    val headerAnchor = element.selectFirst("a") ?: return@mapNotNull null
+                    val episodeTitleText = headerAnchor.text().trim()
+                    val link = fixUrl(headerAnchor.attr("href"))
+                    val episodeNumber = episodeTitleText.replace("Episode", "", ignoreCase = true).trim().toIntOrNull()
+                    val runTimeString = element.selectFirst("span.duration")?.text()
+                    val runTimeInSeconds = runTimeString?.let { rt ->
+                        rt.filter { it.isDigit() }.toLongOrNull()?.times(60)
+                    }
+                    // Assuming newEpisode has a signature like:
+                    // fun newEpisode(data: String, name: String?, episode: Int?, ..., runtime: Long?): Episode
+                    newEpisode(link) {
+                        this.data = link
+                        this.name = episodeTitleText
+                        this.episode = episodeNumber
+                        //this.runtime = runTimeInSeconds
+                        // other parameters...
+                    }
+                }
+                .reversed()
 
         val recommendations =
                 document.select("div.relat div.animposx").mapNotNull { it.toSearchResult() }

@@ -42,7 +42,7 @@ class Pencurimovie : MainAPI() {
     private fun Element.toSearchResult(): SearchResponse {
         val title = this.select("a").attr("oldtitle").substringBefore("(")
         val href = fixUrl(this.select("a").attr("href"))
-        val posterUrl = fixUrlNull(this.select("a img").attr("data-original").toString())
+        val posterUrl = fixUrlNull(this.select("a img").attr("data-original"))
         val quality = getQualityFromString(this.select("span.mli-quality").text())
         return newMovieSearchResponse(title, href, TvType.Movie) {
             this.posterUrl = posterUrl
@@ -64,7 +64,7 @@ class Pencurimovie : MainAPI() {
                         ?.trim()
                         .toString()
                         .substringBefore("(")
-        val poster = document.select("meta[property=og:image]").attr("content").toString()
+        val poster = document.select("meta[property=og:image]").attr("content")
         val description = document.selectFirst("div.desc p.f-desc")?.text()?.trim()
         val tvtag = if (url.contains("series")) TvType.TvSeries else TvType.Movie
         val trailer = document.select("meta[itemprop=embedUrl]").attr("content")
@@ -82,7 +82,7 @@ class Pencurimovie : MainAPI() {
             document.select("div.tvseason").amap { info ->
                 val season =
                         info.select("strong").text().substringAfter("Season").trim().toIntOrNull()
-                info.select("div.les-content a").forEach { it ->
+                info.select("div.les-content a").forEach {
                     Log.d("Phis", "$it")
                     val name = it.select("a").text().substringAfter("-").trim()
                     val href = it.select("a").attr("href")

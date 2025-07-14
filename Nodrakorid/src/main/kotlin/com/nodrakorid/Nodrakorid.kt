@@ -72,7 +72,7 @@ class Nodrakorid : MainAPI() {
                                 doc.select("div#download").isEmpty() -> {
                                     doc.select("div.entry-content p:contains(Episode)")
                                             .distinctBy { it.text() }
-                                            .mapNotNull { eps ->
+                                            .map { eps ->
                                                 val endSibling =
                                                         eps.nextElementSiblings()
                                                                 .select("p:contains(Episode)")

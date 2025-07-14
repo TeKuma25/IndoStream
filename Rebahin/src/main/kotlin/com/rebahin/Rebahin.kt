@@ -129,7 +129,7 @@ open class Rebahin : MainAPI() {
                         .toIntOrNull()
         val actors = document.select("span[itemprop=actor] > a").map { it.select("span").text() }
 
-        val baseLink = fixUrl(document.select("div#mv-info > a").attr("href").toString())
+        val baseLink = fixUrl(document.select("div#mv-info > a").attr("href"))
 
         return if (tvType == TvType.TvSeries) {
             val episodes =
@@ -140,10 +140,7 @@ open class Rebahin : MainAPI() {
                             .groupBy { it.first }
                             .map { eps ->
                                 newEpisode(
-                                        data =
-                                                eps.value
-                                                        .map { fixUrl(base64Decode(it.second)) }
-                                                        .toString(),
+                                        data = eps.value.map { fixUrl(base64Decode(it.second)) }.toString(),
                                         name = eps.key,
                                         episode = eps.key.filter { it.isDigit() }.toIntOrNull()
                                 )

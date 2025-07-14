@@ -43,7 +43,7 @@ subprojects {
         namespace = "com.tekuma25"
 
         defaultConfig {
-            minSdk = 21
+            minSdk = 26
             compileSdkVersion(35)
             targetSdk = 35
 

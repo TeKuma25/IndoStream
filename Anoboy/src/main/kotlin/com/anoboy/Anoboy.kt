@@ -21,7 +21,7 @@ class Anoboy : MainAPI() {
     )
 
     companion object {
-        private const val mainImageUrl = "https://ww25.upload.anoboy.life"
+        private const val MAIN_IMAGE_URL = "https://ww25.upload.anoboy.life" // Corrected name
 
         fun getType(t: String): TvType {
             return if (t.contains("OVA", true) || t.contains("Special", true)) TvType.OVA
@@ -61,13 +61,12 @@ class Anoboy : MainAPI() {
     }
 
     private fun Anime.toSearchResponse(): SearchResponse? {
-
         return newAnimeSearchResponse(
             postTitle ?: return null,
-            "$mainUrl/anime/$postName",
+            "$mainUrl/anime/$postName", // Assuming mainUrl is a class property
             TvType.TvSeries,
         ) {
-            this.posterUrl = "$mainImageUrl/$image"
+            this.posterUrl = "$MAIN_IMAGE_URL/$image" // Use the updated constant name
             addSub(totalEpisode?.toIntOrNull())
         }
     }
@@ -98,14 +97,39 @@ class Anoboy : MainAPI() {
         )?.groupValues?.get(1)?.toIntOrNull()
         val status = getStatus(document.selectFirst(".spe > span")!!.ownText())
         val description = document.select("div[itemprop = description] > p").text()
-        val episodes = document.select(".eplister > ul > li").map {
-            val episode = Regex("Episode\\s?(\\d+)").find(
-                it.select(".epl-title").text()
-            )?.groupValues?.getOrNull(0)
-            val link = it.select("a").attr("href")
-            Episode(link, episode = episode?.toIntOrNull())
-        }.reversed()
+// Inside the .map { ... } block in your load function:
 
+        val episodes = document.select(".eplister > ul > li").mapNotNull { episodeElement -> // Switched to mapNotNull
+            val anchor = episodeElement.selectFirst("a") ?: return@mapNotNull null // Get the anchor tag
+            val link = anchor.attr("href")
+            val episodeNameText = episodeElement.selectFirst(".epl-title")?.text() ?: anchor.text() // Get the full title
+
+            val episodeNumber = Regex("Episode\\s?(\\d+)")
+                .find(episodeNameText)
+                ?.groupValues
+                ?.getOrNull(1) // Group 1 for the actual number
+                ?.toIntOrNull()
+
+            // --- Placeholder for runTime extraction ---
+            // val runTimeString = episodeElement.selectFirst(".episode-duration-class")?.text() // Adjust selector based on Anoboy's HTML
+            // var runTimeInSeconds: Long? = null
+            // if (runTimeString != null) {
+            //     runTimeInSeconds = parseMyDurationFormat(runTimeString) // You'll need a helper function
+            // }
+            // --- End placeholder ---
+
+            // Replace the old constructor call (that was on/around line 106) with this:
+            newEpisode(link) { // 'link' is the 'data' argument
+                this.name = episodeNameText       // Set the 'name' property (full title)
+                this.episode = episodeNumber      // Set the 'episode' property (the number)
+                // this.runtime = runTimeInSeconds // Set the 'runtime' property if you can get it
+                // Add other properties if available and needed:
+                // this.season = ...
+                // this.posterUrl = ... (if available per episode)
+                // this.description = ... (if available per episode)
+                // this.date = ... (if upload date is available per episode)
+            }
+        }.reversed()
         return newAnimeLoadResponse(title, url, getType(type)) {
             engName = title
             posterUrl = poster

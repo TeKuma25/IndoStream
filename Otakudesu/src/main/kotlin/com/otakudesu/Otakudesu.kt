@@ -58,7 +58,7 @@ class Otakudesu : MainAPI() {
     private fun Element.toSearchResult(): AnimeSearchResponse? {
         val title = this.selectFirst("h2.jdlflm")?.text()?.trim() ?: return null
         val href = this.selectFirst("a")!!.attr("href")
-        val posterUrl = this.select("div.thumbz > img").attr("src").toString()
+        val posterUrl = this.select("div.thumbz > img").attr("src")
         val epNum =
                 this.selectFirst("div.epz")
                         ?.ownText()
@@ -78,7 +78,7 @@ class Otakudesu : MainAPI() {
                 .map {
                     val title = it.selectFirst("h2 > a")!!.ownText().trim()
                     val href = it.selectFirst("h2 > a")!!.attr("href")
-                    val posterUrl = it.selectFirst("img")!!.attr("src").toString()
+                    val posterUrl = it.selectFirst("img")!!.attr("src")
                     newAnimeSearchResponse(title, href, TvType.Anime) { this.posterUrl = posterUrl }
                 }
     }

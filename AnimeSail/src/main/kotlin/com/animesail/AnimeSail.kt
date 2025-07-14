@@ -140,29 +140,47 @@ class AnimeSail : MainAPI() {
         val document = request(url).document
 
         val title =
-                document.selectFirst("h1.entry-title")
-                        ?.text()
-                        .toString()
-                        .replace("Subtitle Indonesia", "")
-                        .trim()
+            document.selectFirst("h1.entry-title")
+                ?.text()
+                .toString()
+                .replace("Subtitle Indonesia", "")
+                .trim()
         val poster = document.selectFirst("div.entry-content > img")?.attr("src")
         val type = getType(document.select("tbody th:contains(Tipe)").next().text().lowercase())
         val year = document.select("tbody th:contains(Dirilis)").next().text().trim().toIntOrNull()
 
+        // --- Corrected Episode Mapping ---
         val episodes =
-                document.select("ul.daftar > li")
-                        .map {
-                            val link = fixUrl(it.select("a").attr("href"))
-                            val name = it.select("a").text()
-                            val episode =
-                                    Regex("Episode\\s?(\\d+)")
-                                            .find(name)
-                                            ?.groupValues
-                                            ?.getOrNull(0)
-                                            ?.toIntOrNull()
-                            Episode(link, episode = episode)
-                        }
-                        .reversed()
+            document.select("ul.daftar > li") // Assuming this is your episode list selector
+                .mapNotNull { episodeElement -> // Use mapNotNull to safely skip if data is missing
+                    val anchor = episodeElement.selectFirst("a") ?: return@mapNotNull null
+                    val episodeLink = fixUrl(anchor.attr("href"))
+                    val episodeName = anchor.text()
+
+                    val episodeNumber = // Renamed from 'episode' to avoid confusion with property name
+                        Regex("Episode\\s?(\\d+)")
+                            .find(episodeName)
+                            ?.groupValues
+                            ?.getOrNull(1) // IMPORTANT: Group 1 for the number
+                            ?.toIntOrNull()
+
+                    // --- How to get runtime? This is still a question. ---
+                    // val runtimeString = episodeElement.selectFirst(".runtime-class")?.text()
+                    // val runtimeInSeconds = parseRuntime(runtimeString) // You'd need a parseRuntime function
+
+                    newEpisode(episodeLink) { // 'episodeLink' is the 'data' argument
+                        this.name = episodeName       // Set the 'name' property
+                        this.episode = episodeNumber  // Set the 'episode' property (the number)
+                        // this.runtime = runtimeInSeconds // Uncomment and implement if you can get runtime
+                        // Set other properties if available:
+                        // this.season = ...
+                        // this.posterUrl = ...
+                        // this.description = ...
+                        // this.date = ... (parse from page if available)
+                    }
+                }
+                .reversed()
+        // --- End Corrected Episode Mapping ---
 
         val tracker = APIHolder.getTracker(listOf(title), TrackerType.getTypes(type), year, true)
 
@@ -172,10 +190,10 @@ class AnimeSail : MainAPI() {
             this.year = year
             addEpisodes(DubStatus.Subbed, episodes)
             showStatus =
-                    getStatus(document.select("tbody th:contains(Status)").next().text().trim())
+                getStatus(document.select("tbody th:contains(Status)").next().text().trim())
             plot = document.selectFirst("div.entry-content > p")?.text()
             this.tags =
-                    document.select("tbody th:contains(Genre)").next().select("a").map { it.text() }
+                document.select("tbody th:contains(Genre)").next().select("a").map { it.text() }
             addMalId(tracker?.malId)
             addAniListId(tracker?.aniId?.toIntOrNull())
         }
@@ -194,10 +212,9 @@ class AnimeSail : MainAPI() {
             safeApiCall {
                 val iframe =
                         fixUrl(
-                                Jsoup.parse(base64Decode(it.attr("data-em")))
-                                        .select("iframe")
-                                        .attr("src")
-                                        ?: throw ErrorLoadingException("No iframe found")
+                            Jsoup.parse(base64Decode(it.attr("data-em")))
+                                    .select("iframe")
+                                    .attr("src")
                         )
                 val quality = getIndexQuality(it.text())
                 when {

@@ -101,7 +101,7 @@ class Neonime : MainAPI() {
         val document = app.get("$baseUrl/?s=$query").document
         return document.select("div.item.episode-home").mapNotNull {
             val title = it.selectFirst("div.judul-anime > span")!!.text()
-            val poster = it.select("img").attr("data-src").toString().trim()
+            val poster = it.select("img").attr("data-src").trim()
             val episodes = it.selectFirst("div.fixyear > h2.text-center")!!
                 .text().replace(Regex("\\D"), "").trim().toIntOrNull()
             val tvType = getType(it.selectFirst("span.calidad2.episode")?.text().toString())

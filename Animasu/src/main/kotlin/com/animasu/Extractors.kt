@@ -1,11 +1,9 @@
 package com.animasu
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.SubtitleFile
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.extractors.Filesim
-import com.lagradost.cloudstream3.utils.*
 import com.lagradost.cloudstream3.utils.AppUtils
 import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
 import com.lagradost.cloudstream3.utils.ExtractorApi
@@ -26,7 +24,7 @@ class Archivd : ExtractorApi() {
     ) {
         val res = app.get(url).document
         val json = res.select("div#app").attr("data-page")
-        val video = AppUtils.tryParseJson<Sources>(json)?.props?.datas?.data?.link?.media
+        val video = tryParseJson<Sources>(json)?.props?.datas?.data?.link?.media
         callback.invoke(
                 ExtractorLink(
                         this.name,
@@ -76,7 +74,7 @@ class Newuservideo : ExtractorApi() {
         val doc = app.get(iframe, referer = "$mainUrl/").text
         val json = "VIDEO_CONFIG\\s?=\\s?(.*)".toRegex().find(doc)?.groupValues?.get(1)
 
-        AppUtils.tryParseJson<Sources>(json)?.streams?.map {
+        tryParseJson<Sources>(json)?.streams?.map {
             callback.invoke(
                     ExtractorLink(
                             this.name,

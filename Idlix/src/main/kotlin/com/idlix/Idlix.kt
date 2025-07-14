@@ -80,7 +80,7 @@ class Idlix : MainAPI() {
     private fun Element.toSearchResult(): SearchResponse {
         val title = this.selectFirst("h3 > a")!!.text().replace(Regex("\\(\\d{4}\\)"), "").trim()
         val href = getProperLink(this.selectFirst("h3 > a")!!.attr("href"))
-        val posterUrl = this.select("div.poster > img").attr("src").toString()
+        val posterUrl = this.select("div.poster > img").attr("src")
         val quality = getQualityFromString(this.select("span.quality").text())
         return newMovieSearchResponse(title, href, TvType.Movie) {
             this.posterUrl = posterUrl
@@ -99,7 +99,7 @@ class Idlix : MainAPI() {
                             .replace(Regex("\\(\\d{4}\\)"), "")
                             .trim()
             val href = getProperLink(it.selectFirst("div.title > a")!!.attr("href"))
-            val posterUrl = it.selectFirst("img")!!.attr("src").toString()
+            val posterUrl = it.selectFirst("img")!!.attr("src")
             newMovieSearchResponse(title, href, TvType.TvSeries) { this.posterUrl = posterUrl }
         }
     }
@@ -114,7 +114,7 @@ class Idlix : MainAPI() {
                         ?.replace(Regex("\\(\\d{4}\\)"), "")
                         ?.trim()
                         .toString()
-        val poster = document.select("div.poster > img").attr("src").toString()
+        val poster = document.select("div.poster > img").attr("src")
         val tags = document.select("div.sgeneros > a").map { it.text() }
 
         val year =
@@ -144,7 +144,6 @@ class Idlix : MainAPI() {
                     val recName =
                             it.selectFirst("a")!!
                                     .attr("href")
-                                    .toString()
                                     .removeSuffix("/")
                                     .split("/")
                                     .last()
@@ -351,9 +350,5 @@ class Idlix : MainAPI() {
     data class ResponseHash(
             @JsonProperty("embedurl") val embedurl: String,
             @JsonProperty("key") val key: String,
-    )
-
-    data class AesData(
-            @JsonProperty("m") val m: String,
     )
 }

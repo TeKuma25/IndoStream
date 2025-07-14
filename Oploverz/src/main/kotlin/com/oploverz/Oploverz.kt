@@ -68,7 +68,7 @@ class Oploverz : MainAPI() {
     private fun Element.toSearchResult(): AnimeSearchResponse? {
         val title = this.selectFirst("div.title")?.text()?.trim() ?: return null
         val href = getProperAnimeLink(this.selectFirst("a")!!.attr("href"))
-        val posterUrl = this.select("img[itemprop=image]").attr("src").toString()
+        val posterUrl = this.select("img[itemprop=image]").attr("src")
         val type = getType(this.select("div.type").text().trim())
         val epNum =
                 this.selectFirst("span.episode")
@@ -91,7 +91,7 @@ class Oploverz : MainAPI() {
                     document.select(".site-main.relat > article").mapNotNull {
                         val title = it.selectFirst("div.title > h2")!!.ownText().trim()
                         val href = it.selectFirst("a")!!.attr("href")
-                        val posterUrl = it.selectFirst("img")!!.attr("src").toString()
+                        val posterUrl = it.selectFirst("img")!!.attr("src")
                         val type = getType(it.select("div.type").text().trim())
                         newAnimeSearchResponse(title, href, type) { this.posterUrl = posterUrl }
                     }

@@ -1,5 +1,5 @@
 dependencies {
-    implementation(kotlin("stdlib"))
+//    implementation(kotlin("stdlib"))
     implementation("com.github.Blatzar:NiceHttp:0.4.11")
     implementation("org.jsoup:jsoup:1.18.3")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.1")
@@ -12,7 +12,6 @@ dependencies {
     implementation("app.cash.quickjs:quickjs-android:0.9.2")
     implementation("org.jsoup:jsoup:1.18.3")
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
-    implementation("org.json:json:20231013")
     implementation("androidx.core:core-ktx:1.16.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
 }

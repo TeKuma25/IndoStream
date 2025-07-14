@@ -78,7 +78,7 @@ class NontonAnimeID : MainAPI() {
             val title = it.selectFirst("h2")!!.text().trim()
             val poster = it.selectFirst("img")?.getImageAttr()
             val tvType = getType(
-                it.selectFirst(".boxinfores > span.typeseries")!!.text().toString()
+                it.selectFirst(".boxinfores > span.typeseries")!!.text()
             )
             val href = fixUrl(it.selectFirst("a")!!.attr("href"))
 
@@ -223,7 +223,7 @@ class NontonAnimeID : MainAPI() {
         }
     }
 
-    private fun Element.getImageAttr(): String? {
+    private fun Element.getImageAttr(): String {
         return when {
             this.hasAttr("data-src") -> this.attr("abs:data-src")
             this.hasAttr("data-lazy-src") -> this.attr("abs:data-lazy-src")

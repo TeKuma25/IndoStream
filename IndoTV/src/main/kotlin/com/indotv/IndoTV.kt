@@ -22,38 +22,48 @@ class IndoTV : MainAPI() {
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
         val data = IptvPlaylistParser().parseM3U(app.get(mainUrl).text)
-        return HomePageResponse(
-                data.items.groupBy { it.attributes["group-title"] }.map { group ->
-                    val title = group.key ?: ""
-                    val show =
-                            group.value.map { channel ->
-                                val streamurl = channel.url.toString()
-                                val channelname = channel.title.toString()
-                                val posterurl = channel.attributes["tvg-logo"].toString()
-                                val nation = "id"
-                                val key = channel.attributes["key"].toString()
-                                val keyid = channel.attributes["keyid"].toString()
-                                LiveSearchResponse(
-                                        channelname,
-                                        LoadData(
-                                                        streamurl,
-                                                        channelname,
-                                                        posterurl,
-                                                        nation,
-                                                        key,
-                                                        keyid
-                                                )
-                                                .toJson(),
-                                        this@IndoTV.name,
-                                        TvType.Live,
-                                        posterurl,
-                                        lang = channel.attributes["group-title"]
-                                )
-                            }
-                    HomePageList(title, show, isHorizontalImages = true)
+
+        val homePageLists = data.items.groupBy { it.attributes["group-title"] }.map { group ->
+            val title = group.key ?: ""
+            val show =
+                group.value.map { channel ->
+                    val streamurl = channel.url.toString()
+                    val channelname = channel.title.toString()
+                    val posterurl = channel.attributes["tvg-logo"].toString()
+                    val nation = "id"
+                    val key = channel.attributes["key"].toString()
+                    val keyid = channel.attributes["keyid"].toString()
+                    LiveSearchResponse(
+                        channelname,
+                        LoadData(
+                            streamurl,
+                            channelname,
+                            posterurl,
+                            nation,
+                            key,
+                            keyid
+                        )
+                            .toJson(),
+                        this@IndoTV.name,
+                        TvType.Live,
+                        posterurl,
+                        lang = channel.attributes["group-title"]
+                    )
                 }
-        )
+            HomePageList(title, show, isHorizontalImages = true)
+        }
+
+        // Replace the deprecated constructor call with the new factory method
+        return newHomePageResponse(homePageLists)
+            // Inside this lambda, 'this' refers to the HomePageResponse object being built.
+            // You can set other properties if needed, for example:
+            // this.hasNext = false // Or true, depending on your pagination logic (if any)
+            // If 'hasNext' is the only other common property, the factory method might
+            // have an optional parameter for it too, e.g., newHomePageResponse(homePageLists, hasNext = false)
+            // Check the signature of newHomePageResponse to be sure.
+
     }
+
 
     override suspend fun search(query: String): List<SearchResponse> {
         val data = IptvPlaylistParser().parseM3U(app.get(mainUrl).text)

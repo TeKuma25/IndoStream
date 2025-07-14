@@ -1,12 +1,36 @@
 package com.layarkaca
 
-import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.Episode
+import com.lagradost.cloudstream3.HomePageResponse
+import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.LoadResponse.Companion.addActors
 import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
-import com.lagradost.cloudstream3.utils.*
+import com.lagradost.cloudstream3.MainAPI
+import com.lagradost.cloudstream3.MainPageRequest
+import com.lagradost.cloudstream3.SearchResponse
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.TvType
+import com.lagradost.cloudstream3.addQuality
+import com.lagradost.cloudstream3.addSub
+import com.lagradost.cloudstream3.apmap
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.fixUrl
+import com.lagradost.cloudstream3.fixUrlNull
+import com.lagradost.cloudstream3.mainPageOf
+import com.lagradost.cloudstream3.newAnimeSearchResponse
+import com.lagradost.cloudstream3.newHomePageResponse
+import com.lagradost.cloudstream3.newMovieLoadResponse
+import com.lagradost.cloudstream3.newMovieSearchResponse
+import com.lagradost.cloudstream3.newTvSeriesLoadResponse
+import com.lagradost.cloudstream3.newTvSeriesSearchResponse
+import com.lagradost.cloudstream3.toRatingInt
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.loadExtractor
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.jsoup.nodes.Element
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
-import org.jsoup.nodes.Element
 
 class LayarKaca : MainAPI() {
 
@@ -74,7 +98,9 @@ class LayarKaca : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val mainUrl = "https://tv14.nontondrama.click"
-        val encodedQuery = URLEncoder.encode(query, StandardCharsets.UTF_8.toString())
+        val encodedQuery = withContext(Dispatchers.IO) {
+            URLEncoder.encode(query, StandardCharsets.UTF_8.toString())
+        }
         val document =
                 app.get("$mainUrl/search.php?s=$query#gsc.tab=0&gsc.q=$encodedQuery&gsc.page=1")
                         .document
@@ -91,7 +117,7 @@ class LayarKaca : MainAPI() {
         val document = app.get(fixUrl ?: return null).document
 
         val title = document.selectFirst("li.last > span[itemprop=name]")?.text()?.trim().toString()
-        val poster = fixUrl(document.select("img.img-thumbnail").attr("src").toString())
+        val poster = fixUrl(document.select("img.img-thumbnail").attr("src"))
         val tags = document.select("div.content > div:nth-child(5) > h3 > a").map { it.text() }
 
         val year =

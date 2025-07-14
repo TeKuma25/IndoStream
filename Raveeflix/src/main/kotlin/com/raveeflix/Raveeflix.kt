@@ -87,7 +87,7 @@ class Raveeflix : MainAPI() {
         val poster = media.poster ?: document.selectFirst("div.thumbnail_card, div.w-full.thumbnail_card_related")
             ?.attr("style")?.getPoster()
         val type =
-            if (document.select("mux-player").isNullOrEmpty()) TvType.TvSeries else TvType.Movie
+            if (document.select("mux-player").isEmpty()) TvType.TvSeries else TvType.Movie
         val tags =
             if (type == TvType.TvSeries) {
                 document.selectFirst("div.movie-details > p:nth-child(1)")
