@@ -7,7 +7,7 @@ import com.lagradost.cloudstream3.utils.*
 import org.jsoup.nodes.Element
 
 class Oploverz : MainAPI() {
-    override var mainUrl = "https://oploverz.media"
+    override var mainUrl = "https://anime.oploverz.ac"
     override var name = "Oploverz"
     override val hasMainPage = true
     override var lang = "id"
