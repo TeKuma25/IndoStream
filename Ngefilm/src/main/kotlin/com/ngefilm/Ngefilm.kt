@@ -6,7 +6,7 @@ import com.lagradost.cloudstream3.mainPageOf
 
 class Ngefilm : MainAPI() {
 
-    override var mainUrl = "https://new1.ngefilm.online"
+    override var mainUrl = "https://new14.ngefilm.site"
 
     override var name = "Ngefilm"
     override val hasMainPage = true
