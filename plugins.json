@@ -453,14 +453,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Oploverz.cs3",
     "status": 1,
-    "version": 52,
+    "version": 53,
     "name": "Oploverz",
     "internalName": "Oploverz",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton anime subtitle Indonesia dari Oploverz dengan pilihan kualitas video.",
-    "fileSize": 60697,
+    "fileSize": 59475,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -470,7 +470,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=oploverz.xin&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-0ee215d152a971f87ad83212d0700faebb695f378fca8696b061198c7b6bc048"
+    "fileHash": "sha256-a535cdd46c731841817f548158763954c82f6d9c3e9f7634d249d0a7de5a9a51"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Otakudesu.cs3",
