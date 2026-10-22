@@ -175,14 +175,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Gomunime.cs3",
     "status": 1,
-    "version": 8,
+    "version": 9,
     "name": "Gomunime",
     "internalName": "Gomunime",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming anime subtitle Indonesia terlengkap dari Gomunime.",
-    "fileSize": 22022,
+    "fileSize": 25009,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -192,7 +192,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=gomunime.top&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-0b4d7153d38725c29509727e82c9b6ca529355a53a64ed12c862f439e636e1b4"
+    "fileHash": "sha256-b946791e43e4105e2dbcf2f563b66d3fb3e48dcde15f5518b460135dd836188c"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Idlix.cs3",
