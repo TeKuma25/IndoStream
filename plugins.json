@@ -110,14 +110,14 @@
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Cgvindo.cs3",
         "status": 1,
-        "version": 1,
+        "version": 2,
         "name": "Cgvindo",
         "internalName": "Cgvindo",
         "authors": [
             "TeKuma25"
         ],
         "description": "Nonton streaming movie terlengkap dan terupdate dari Cgvindo.",
-        "fileSize": 18877,
+        "fileSize": 23275,
         "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
         "language": "id",
         "tvTypes": [
@@ -125,7 +125,7 @@
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=167.172.35.72&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-f21f3b8a4dadbd1fac508522e34c68175ebd5272268f1ab0f58a7c70c3743de9"
+        "fileHash": "sha256-a4ec043b48e4b994664f229f88143d107c785a9769d490a1d69be62fc4af0355"
     },
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dubbindo.cs3",
@@ -262,22 +262,23 @@
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kitanonton.cs3",
         "status": 1,
-        "version": 1,
+        "version": 2,
         "name": "Kitanonton",
         "internalName": "Kitanonton",
         "authors": [
             "TeKuma25"
         ],
-        "description": "Nonton streaming movie terlengkap dan terupdate dari Kitanonton.",
-        "fileSize": 18911,
+        "description": "Nonton streaming movie dan serial drama terlengkap dan terupdate dari Kitanonton.",
+        "fileSize": 31669,
         "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
         "language": "id",
         "tvTypes": [
-            "Movie"
+            "Movie",
+            "TvSeries"
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=kitanonton2.beer&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-aa7376df8e8e2f09ab307b3c6dca174cf6c35424fee13e32e5d37beee398f615"
+        "fileHash": "sha256-b85b7d884e32849eafffc0c31a50af8db28d498557b3eea4b69b2d4f7a016639"
     },
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kuramanime.cs3",
