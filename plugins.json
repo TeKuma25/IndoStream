@@ -175,14 +175,14 @@
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Gomov.cs3",
         "status": 1,
-        "version": 38,
+        "version": 39,
         "name": "Gomov",
         "internalName": "Gomov",
         "authors": [
             "TeKuma25"
         ],
         "description": "Nonton streaming film dan serial drama terlengkap dan terupdate dari Gomov.",
-        "fileSize": 36069,
+        "fileSize": 40196,
         "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
         "language": "id",
         "tvTypes": [
@@ -192,7 +192,7 @@
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=gomov.top&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-fd9bab10415e954c68a56c9d9bdcf32e9b20e53080182c939ca0563d8cd58fb3"
+        "fileHash": "sha256-c8449eed0b1db0644af47c95a21ab9778f4d89f484934d9d7ceaa25a4f2373bb"
     },
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Gomunime.cs3",
