@@ -109,7 +109,7 @@
     },
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Cgvindo.cs3",
-        "status": 1,
+        "status": 3,
         "version": 2,
         "name": "Cgvindo",
         "internalName": "Cgvindo",
@@ -261,7 +261,7 @@
     },
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kitanonton.cs3",
-        "status": 1,
+        "status": 3,
         "version": 2,
         "name": "Kitanonton",
         "internalName": "Kitanonton",
@@ -585,7 +585,7 @@
     },
     {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Rebahin.cs3",
-        "status": 1,
+        "status": 3,
         "version": 17,
         "name": "Rebahin",
         "internalName": "Rebahin",
