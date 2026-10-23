@@ -1,68 +1,70 @@
-# IndoStream: Kumpulan Ekstensi CloudStream untuk Konten Indonesia
+# 🇮🇩 IndoStream Repository (CloudStream 3)
 
-IndoStream adalah kumpulan ekstensi CloudStream yang berfokus pada penyediaan konten streaming dari berbagai sumber di Indonesia. Repositori ini berisi ekstensi yang memperluas fungsionalitas aplikasi CloudStream, memungkinkan pengguna untuk menikmati berbagai macam film, serial, dan anime dari situs-situs populer di Indonesia.
+Repositori resmi ekstensi penyedia media (streaming film, serial TV, dan anime) berbahasa Indonesia untuk aplikasi [CloudStream 3](https://github.com/recloudstream/cloudstream).
 
-## Fitur Utama
+---
 
-*   **Beragam Sumber Konten:** Akses konten dari berbagai situs streaming populer di Indonesia.
-*   **Mudah Digunakan:** Instalasi dan penggunaan yang sederhana melalui aplikasi CloudStream.
-*   **Pembaruan Reguler:** Ekstensi diperbarui secara berkala untuk memastikan kompatibilitas dan ketersediaan konten.
-*   **Fokus pada Konten Indonesia:** Kumpulan ekstensi ini berfokus pada konten yang relevan dengan pengguna di Indonesia.
+## 🚀 Cara Pemasangan di Aplikasi CloudStream
 
-## Daftar Ekstensi
+1. Buka aplikasi **CloudStream 3** di perangkat Android / Android TV Anda.
+2. Masuk ke menu **Settings (Pengaturan)** > **Extensions (Ekstensi)**.
+3. Tekan **Add Repository (Tambah Repositori)**.
+4. Masukkan informasi repositori berikut:
+   - **Repository Name**: `IndoStream`
+   - **Repository URL**:
+     ```text
+     https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/plugins.json
+     ```
+5. Tekan **Download / Tambah**, lalu instal modul ekstensi yang Anda inginkan.
 
-Berikut adalah daftar ekstensi yang tersedia di repositori IndoStream:
+---
 
-| Nama Ekstensi | Status                            |
-| ------------- | --------------------------------- |
-| Animasu       | Jalan, gambar poster tidak muncul |
-| Animindo      | Error                             |
-| Animesail     | Jalan                             |
-| Anoboy        | Error                             |
-| Dramaid       | Link Error. Oppadrama jalan       |
-| DramaSerial   | Error                             |
-| Dubbindo      | Jalan                             |
-| Dutamovie     | Butuh VPN                         |
-| Funmovieslix  | Jalan                             |
-| Gomov         | Butuh VPN, Link Error             |
-| Gomunime      | Down                              |
-| Idlix         | Link Error                        |
-| IndoTV        | Jalan                             |
-| Kuramanime    | Butuh VPN, Link Error             |
-| Kuronime      | Link Error                        |
-| LayarKaca     | Jalan                             |
-| Minioppai     | Error                             |
-| Nekopoi       | Butuh VPN                         |
-| Neonime       | Error                             |
-| Ngefilm       | Error                             |
-| Nimegami      | Jalan, perlu perbaikan menu       |
-| Nodrakorid    | Error tidak bisa diinstal         |
-| NontonAnimeID | Down                              |
-| Oploverz      | Down                              |
-| Otakudesu     | Jalan                             |
-| Pencurimovie  | Jalan                             |
-| Pusatfilm     | The Operation is not implemented  |
-| Raveeflix     | Down                              |
-| Rebahin       | Butuh VPN, Link Error             |
-| Samehadaku    | Butuh VPN                         |
-| UseeTv        | Error                             |
+## 📢 Laporan Gangguan & Permintaan Pembaruan
 
-## Cara Menggunakan
+Jika Anda menemukan link video tidak dapat diputar, episode tidak muncul, atau ingin merequest penambahan penyedia streaming baru:
+👉 [**Klik di sini untuk membuat Laporan di GitHub Issues**](https://github.com/TeKuma25/IndoStream/issues/new/choose)
 
-1.  Buka aplikasi CloudStream.
-2.  Buka menu "Ekstensi".
-3.  Klik tombol "Tambahkan Repositori".
-4.  Masukkan URL repositori IndoStream: https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/repo.json
-5.  Klik "Tambahkan".
-6.  Ekstensi yang tersedia akan muncul di daftar.
-7.  Pilih ekstensi yang ingin Anda instal dan klik "Instal".
+Mohon gunakan formulir yang telah disediakan agar tim pengembang dapat memproses perbaikan secara cepat.
 
-## Membangun Proyek
+---
 
-Untuk membangun proyek ini, Anda memerlukan [Gradle](https://gradle.org/) yang terinstal. Anda dapat membangun proyek menggunakan perintah berikut:
+## 📦 Status Katalog Ekstensi
 
-sh ./gradlew build
+Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang tersedia di repositori IndoStream:
 
-## Kontribusi
+| Ekstensi | Kategori Konten | Status Operasional | Keterangan |
+| :--- | :--- | :---: | :--- |
+| **Animasu** | AnimeMovie, OVA, Anime | 🟢 Normal | Tersedia streaming lancar |
+| **AnimeIndo** | AnimeMovie, OVA, Anime | 🟢 Normal | Tersedia streaming lancar |
+| **AnimeSail** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **Anoboy** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **Budi** | Movie | 🟢 Normal | Tersedia streaming lancar |
+| **Cgvindo** | Movie | 🟡 Pemeliharaan | Dalam proses penyesuaian pemutar |
+| **Dubbindo** | TvSeries, Movie, Cartoon, Anime | 🟢 Normal | Tersedia streaming lancar |
+| **Dutamovie** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
+| **Gomunime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **Idlix** | TvSeries, Movie, Anime, AsianDrama | 🟢 Normal | Tersedia streaming lancar |
+| **IndoTV** | Live | 🟢 Normal | Tersedia streaming lancar |
+| **Kitanonton** | Movie, TvSeries | 🟡 Pemeliharaan | Dalam proses penyesuaian pemutar |
+| **Kuramanime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **Kuronime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **LayarKaca** | Movie | 🟢 Normal | Tersedia streaming lancar |
+| **Minioppai** | NSFW | 🟢 Normal | Tersedia streaming lancar |
+| **Nekopoi** | NSFW, Anime | 🟢 Normal | Tersedia streaming lancar |
+| **Ngefilm** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
+| **Nimegami** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **NontonAnimeID** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **NontonDrama** | AsianDrama, TvSeries | 🟢 Normal | Tersedia streaming lancar |
+| **Oploverz** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **Otakudesu** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **Pencurimovie** | Movie, TvSeries, Anime, Cartoon | 🟢 Normal | Tersedia streaming lancar |
+| **Pusatfilm** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
+| **RaviFlix** | Movie, TvSeries, AsianDrama | 🟢 Normal | Tersedia streaming lancar |
+| **Rebahin** | AsianDrama, Anime, TvSeries, Movie | 🟡 Pemeliharaan | Dalam proses penyesuaian pemutar |
+| **Samehadaku** | AnimeMovie, OVA, Anime | 🟢 Normal | Tersedia streaming lancar |
 
-Kami menyambut baik kontribusi dari komunitas! Jika Anda ingin menambahkan ekstensi baru, memperbaiki bug, atau meningkatkan dokumentasi, silakan buat *pull request* atau buka *issue*.
+---
+
+## ⚠️ Penafian (Disclaimer)
+
+Repositori ini hanya menyediakan skrip perayap (*scraper*) independen untuk memproses tautan media yang tersedia secara publik di internet. IndoStream tidak menyimpan, mengunggah, atau menghosting konten media apa pun pada server repositori ini. Seluruh hak cipta media dimiliki sepenuhnya oleh pemegang hak cipta masing-masing.
