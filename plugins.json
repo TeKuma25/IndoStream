@@ -2,14 +2,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Animasu.cs3",
     "status": 1,
-    "version": 17,
+    "version": 18,
     "name": "Animasu",
     "internalName": "Animasu",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming anime subtitle Indonesia terlengkap dan terupdate dari Animasu.",
-    "fileSize": 36785,
+    "fileSize": 36768,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -19,7 +19,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=animasu.me&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-2075a33bfe6b706c961b626b7a1259ffb0b9cd6067d33ba00c5dcd8c84f432d4"
+    "fileHash": "sha256-be19c329668b91e08afe543298794f6e80e2f293092abf3bb219a644ce476d41"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/AnimeIndo.cs3",
@@ -46,14 +46,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/AnimeSail.cs3",
     "status": 1,
-    "version": 18,
+    "version": 19,
     "name": "AnimeSail",
     "internalName": "AnimeSail",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming anime subtitle Indonesia terlengkap dari AnimeSail.",
-    "fileSize": 27438,
+    "fileSize": 27454,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -63,7 +63,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=anisail.com&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-0673df7557fdc45d925b18f02721fb7372f754bd57244b218fd6399fd8a8e441"
+    "fileHash": "sha256-f86013d99f64f389fa59127d8e81cc4e532575e97ba05b5451f70d2f766951bc"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Anoboy.cs3",
