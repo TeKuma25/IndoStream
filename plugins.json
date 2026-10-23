@@ -46,14 +46,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/AnimeSail.cs3",
     "status": 1,
-    "version": 19,
+    "version": 20,
     "name": "AnimeSail",
     "internalName": "AnimeSail",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming anime subtitle Indonesia terlengkap dari AnimeSail.",
-    "fileSize": 27454,
+    "fileSize": 28678,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -63,7 +63,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=anisail.com&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-f86013d99f64f389fa59127d8e81cc4e532575e97ba05b5451f70d2f766951bc"
+    "fileHash": "sha256-066175c56a82dc9f8d88ac7327ad1334941607076469e49949fe2f856a2c3dc9"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Anoboy.cs3",
