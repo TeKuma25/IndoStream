@@ -108,26 +108,6 @@
     "fileHash": "sha256-8a868e01f6fc89e97793be79cedff369850ec4f9efdc24366ba7901415419137"
   },
   {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Cgvindo.cs3",
-    "status": 3,
-    "version": 2,
-    "name": "Cgvindo",
-    "internalName": "Cgvindo",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming movie terlengkap dan terupdate dari Cgvindo.",
-    "fileSize": 23275,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Movie"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=167.172.35.72&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-a4ec043b48e4b994664f229f88143d107c785a9769d490a1d69be62fc4af0355"
-  },
-  {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dubbindo.cs3",
     "status": 1,
     "version": 5,
@@ -236,27 +216,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
     "apiVersion": 1,
     "fileHash": "sha256-6b73fa46399deac0cb593ce6ee70b02a0884692cc057bb5a2c1a7b4415ab92a4"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kitanonton.cs3",
-    "status": 3,
-    "version": 2,
-    "name": "Kitanonton",
-    "internalName": "Kitanonton",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming movie dan serial drama terlengkap dan terupdate dari Kitanonton.",
-    "fileSize": 31669,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Movie",
-      "TvSeries"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=kitanonton2.beer&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-b85b7d884e32849eafffc0c31a50af8db28d498557b3eea4b69b2d4f7a016639"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kuramanime.cs3",
@@ -417,7 +376,7 @@
       "TeKuma25"
     ],
     "description": "Nonton anime subtitle Indonesia terlengkap dan terupdate gratis dari NontonAnimeID.",
-    "fileSize": 33491,
+    "fileSize": 33676,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -427,7 +386,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=nontonanimeid.my.id&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-13c861446c061da0180aff153a567c349ec489c74e6306e72d911912ecd54855"
+    "fileHash": "sha256-38eadb5384a975e11461498d03b4f2d616e8af43ed79f024131e9c5a016c0b08"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/NontonDrama.cs3",
@@ -560,29 +519,6 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=raviflixx.blogspot.com&sz=%size%",
     "apiVersion": 1,
     "fileHash": "sha256-c5f3e7c9ca1ca901272e830417b0ee05ffd016063a38f1f1d9878f31797c28d3"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Rebahin.cs3",
-    "status": 3,
-    "version": 17,
-    "name": "Rebahin",
-    "internalName": "Rebahin",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film dan drama Asia terlengkap dari Rebahin.",
-    "fileSize": 34086,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AsianDrama",
-      "Anime",
-      "TvSeries",
-      "Movie"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=rebahinxxi3.mom&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-0c06e9d4f2ed46d1b694a4b7942854942f27841d19a90905d6853c9290fd95fc"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Samehadaku.cs3",

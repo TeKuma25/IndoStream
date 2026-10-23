@@ -39,13 +39,11 @@ Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang t
 | **AnimeSail** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Anoboy** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Budi** | Movie | 🟢 Normal | Tersedia streaming lancar |
-| **Cgvindo** | Movie | 🟡 Pemeliharaan | Dalam proses penyesuaian pemutar |
 | **Dubbindo** | TvSeries, Movie, Cartoon, Anime | 🟢 Normal | Tersedia streaming lancar |
 | **Dutamovie** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
 | **Gomunime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Idlix** | TvSeries, Movie, Anime, AsianDrama | 🟢 Normal | Tersedia streaming lancar |
 | **IndoTV** | Live | 🟢 Normal | Tersedia streaming lancar |
-| **Kitanonton** | Movie, TvSeries | 🟡 Pemeliharaan | Dalam proses penyesuaian pemutar |
 | **Kuramanime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Kuronime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **LayarKaca** | Movie | 🟢 Normal | Tersedia streaming lancar |
@@ -60,7 +58,6 @@ Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang t
 | **Pencurimovie** | Movie, TvSeries, Anime, Cartoon | 🟢 Normal | Tersedia streaming lancar |
 | **Pusatfilm** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
 | **RaviFlix** | Movie, TvSeries, AsianDrama | 🟢 Normal | Tersedia streaming lancar |
-| **Rebahin** | AsianDrama, Anime, TvSeries, Movie | 🟡 Pemeliharaan | Dalam proses penyesuaian pemutar |
 | **Samehadaku** | AnimeMovie, OVA, Anime | 🟢 Normal | Tersedia streaming lancar |
 
 ---
