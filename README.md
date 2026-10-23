@@ -24,7 +24,7 @@ Repositori resmi ekstensi penyedia media (streaming film, serial TV, dan anime) 
 Jika Anda menemukan link video tidak dapat diputar, episode tidak muncul, atau ingin merequest penambahan penyedia streaming baru:
 👉 [**Klik di sini untuk membuat Laporan di GitHub Issues**](https://github.com/TeKuma25/IndoStream/issues/new/choose)
 
-Mohon gunakan formulir yang telah disediakan agar tim pengembang dapat memproses perbaikan secara cepat.
+Mohon gunakan formulir yang telah disediakan agar laporan dapat segera ditindaklanjuti.
 
 ---
 
