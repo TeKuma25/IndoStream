@@ -177,14 +177,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Idlix.cs3",
     "status": 1,
-    "version": 25,
+    "version": 26,
     "name": "Idlix",
     "internalName": "Idlix",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming film dan serial TV subtitle Indonesia terlengkap dari Idlix.",
-    "fileSize": 69047,
+    "fileSize": 70088,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -195,7 +195,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=z2.idlixku.com&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-0d724613bbed8f9b7a5efa26b2c0aebb66e54476b913c976438500a6e5c778cc"
+    "fileHash": "sha256-9196e5b8869e28929bb21e7d1bf085fef0527a32d05f3ec19cc19810ec8a6ed8"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/IndoTV.cs3",
@@ -376,7 +376,7 @@
       "TeKuma25"
     ],
     "description": "Nonton anime subtitle Indonesia terlengkap dan terupdate gratis dari NontonAnimeID.",
-    "fileSize": 33491,
+    "fileSize": 33676,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -386,7 +386,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=nontonanimeid.my.id&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-13c861446c061da0180aff153a567c349ec489c74e6306e72d911912ecd54855"
+    "fileHash": "sha256-38eadb5384a975e11461498d03b4f2d616e8af43ed79f024131e9c5a016c0b08"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/NontonDrama.cs3",
