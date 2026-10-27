@@ -177,14 +177,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Idlix.cs3",
     "status": 1,
-    "version": 24,
+    "version": 25,
     "name": "Idlix",
     "internalName": "Idlix",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming film dan serial TV subtitle Indonesia terlengkap dari Idlix.",
-    "fileSize": 64897,
+    "fileSize": 69047,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -195,7 +195,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=z2.idlixku.com&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-87fb3ae04d4c64b845d5c783d5f86dbe4979b68a35ce45314ee8e77feb54ecde"
+    "fileHash": "sha256-0d724613bbed8f9b7a5efa26b2c0aebb66e54476b913c976438500a6e5c778cc"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/IndoTV.cs3",
