@@ -34,6 +34,7 @@ Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang t
 
 | Ekstensi | Kategori Konten | Status Operasional | Keterangan |
 | :--- | :--- | :---: | :--- |
+| **Anichin** | Anime, AnimeMovie, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Animasu** | AnimeMovie, OVA, Anime | 🟢 Normal | Tersedia streaming lancar |
 | **AnimeIndo** | AnimeMovie, OVA, Anime | 🟢 Normal | Tersedia streaming lancar |
 | **AnimeSail** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
