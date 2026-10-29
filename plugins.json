@@ -2,14 +2,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Anichin.cs3",
     "status": 1,
-    "version": 3,
+    "version": 4,
     "name": "Anichin",
     "internalName": "Anichin",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming anime terlengkap dan terupdate dari Anichin.",
-    "fileSize": 27891,
+    "fileSize": 29419,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -19,7 +19,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=anichin.moe&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-e80e6697b9d9ab13aa48819c38956eb7f2c24126889acfdd56a9cc6ead4ed941"
+    "fileHash": "sha256-f885adb8e70fdcef1682aff82823eb521e24380b0b34a085a1663e49dfefa777"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Animasu.cs3",
