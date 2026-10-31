@@ -1,567 +1,653 @@
 [
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Anichin.cs3",
-    "status": 1,
-    "version": 4,
-    "name": "Anichin",
-    "internalName": "Anichin",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime terlengkap dan terupdate dari Anichin.",
-    "fileSize": 29419,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Anime",
-      "AnimeMovie",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=anichin.moe&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-f885adb8e70fdcef1682aff82823eb521e24380b0b34a085a1663e49dfefa777"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Animasu.cs3",
-    "status": 1,
-    "version": 18,
-    "name": "Animasu",
-    "internalName": "Animasu",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime subtitle Indonesia terlengkap dan terupdate dari Animasu.",
-    "fileSize": 36768,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "OVA",
-      "Anime"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=animasu.me&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-be19c329668b91e08afe543298794f6e80e2f293092abf3bb219a644ce476d41"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/AnimeIndo.cs3",
-    "status": 1,
-    "version": 32,
-    "name": "AnimeIndo",
-    "internalName": "AnimeIndo",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime subtitle Indonesia terlengkap dan terupdate dari AnimeIndo.",
-    "fileSize": 27644,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "OVA",
-      "Anime"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=anime-indo.lol&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-c2f88928ca3c5a9a6acdb5cf1a46a89a38222665098a247eb4b59df682da9b77"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/AnimeSail.cs3",
-    "status": 1,
-    "version": 21,
-    "name": "AnimeSail",
-    "internalName": "AnimeSail",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime subtitle Indonesia terlengkap dari AnimeSail.",
-    "fileSize": 28861,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=anisail.com&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-69df3073a02c8a1119a50c5ae3b46b628f4af81109184fdca6daeee8f41ed7bc"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Anoboy.cs3",
-    "status": 1,
-    "version": 6,
-    "name": "Anoboy",
-    "internalName": "Anoboy",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton anime subtitle Indonesia terlengkap dan terupdate dari Anoboy.",
-    "fileSize": 33236,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=anoboy.lat&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-d123faa6091dcd9d9bec9ca5972ca9d8557acce1b1350f42bdc4b1774b3cf05c"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Budi.cs3",
-    "status": 1,
-    "version": 3,
-    "name": "Budi",
-    "internalName": "Budi",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Koleksi buku video edukasi anak dan literasi digital dari BUDI Kemendikdasmen.",
-    "fileSize": 16973,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Movie"
-    ],
-    "iconUrl": "https://budi.kemendikdasmen.go.id/assets/images/logo/si-glen.png",
-    "apiVersion": 1,
-    "fileHash": "sha256-8a868e01f6fc89e97793be79cedff369850ec4f9efdc24366ba7901415419137"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dubbindo.cs3",
-    "status": 1,
-    "version": 5,
-    "name": "Dubbindo",
-    "internalName": "Dubbindo",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton kartun, anime, dan serial dubbing Indonesia dari Dubbindo.",
-    "fileSize": 17270,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "TvSeries",
-      "Movie",
-      "Cartoon",
-      "Anime"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=www.dubbindo.site&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-92257686d21d180f6160562968da4a59a8ff025ce99c03f4c09f14603375d0f9"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dutamovie.cs3",
-    "status": 1,
-    "version": 7,
-    "name": "Dutamovie",
-    "internalName": "Dutamovie",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film bioskop sub Indo terlengkap dari DutaMovie.",
-    "fileSize": 32605,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AsianDrama",
-      "TvSeries",
-      "Movie"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=aubergedelavenir.com&sz=256",
-    "apiVersion": 1,
-    "fileHash": "sha256-08e3b764eaafc5cf0cdc002e03a47aaabade264a7d32af447a7ee0b6257cb69e"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Gomunime.cs3",
-    "status": 1,
-    "version": 9,
-    "name": "Gomunime",
-    "internalName": "Gomunime",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime subtitle Indonesia terlengkap dari Gomunime.",
-    "fileSize": 25009,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=gomunime.top&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-b946791e43e4105e2dbcf2f563b66d3fb3e48dcde15f5518b460135dd836188c"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Idlix.cs3",
-    "status": 1,
-    "version": 29,
-    "name": "Idlix",
-    "internalName": "Idlix",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film dan serial TV subtitle Indonesia terlengkap dari Idlix.",
-    "fileSize": 74990,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "TvSeries",
-      "Movie",
-      "Anime",
-      "AsianDrama"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=z2.idlixku.com&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-a31f69ca046ec5f69fc84fd1f1284f5a347cbce022382be91929251b9731b78a"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/IndoTV.cs3",
-    "status": 1,
-    "version": 10,
-    "name": "IndoTV",
-    "internalName": "IndoTV",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Siaran langsung saluran televisi nasional dan internasional Indonesia dari IndoTV.",
-    "fileSize": 21145,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Live"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-6b73fa46399deac0cb593ce6ee70b02a0884692cc057bb5a2c1a7b4415ab92a4"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kuramanime.cs3",
-    "status": 1,
-    "version": 43,
-    "name": "Kuramanime",
-    "internalName": "Kuramanime",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming dan download anime subtitle Indonesia kualitas tinggi dari Kuramanime.",
-    "fileSize": 44798,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=kuramanime.ing&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-dde42338c97d1cbec571e3a0639feed327f1af3787dabb44fdc990905dd1b2fd"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kuronime.cs3",
-    "status": 1,
-    "version": 24,
-    "name": "Kuronime",
-    "internalName": "Kuronime",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime subtitle Indonesia dan download batch dari Kuronime.",
-    "fileSize": 27060,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=kuronime.sbs&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-7d641a0a9c84dffe862cdf4cb20b6cb86b1a635868e0b5ef51a5f6fc09ea5a7c"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/LayarKaca.cs3",
-    "status": 1,
-    "version": 32,
-    "name": "LayarKaca",
-    "internalName": "LayarKaca",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film bioskop sub Indo terlengkap dan terupdate dari LayarKaca21 (LK21).",
-    "fileSize": 37628,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Movie"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=lk21official.cc&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-cf39a0ce0884111f9a29e84ab6bdbfbc478181bb9013c69e9f25556f3a56ae35"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Minioppai.cs3",
-    "status": 1,
-    "version": 16,
-    "name": "Minioppai",
-    "internalName": "Minioppai",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming video anime dewasa subtitle Indonesia dari Minioppai.",
-    "fileSize": 31676,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "NSFW"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=minioppai.org&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-8a7b59f7299bb167bed7779d36ff6564be32cd78c619b7c994c83e4d0301eee4"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Nekopoi.cs3",
-    "status": 1,
-    "version": 14,
-    "name": "Nekopoi",
-    "internalName": "Nekopoi",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming video dan animasi dewasa sub Indo terlengkap dari Nekopoi.",
-    "fileSize": 34656,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "NSFW",
-      "Anime"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=nekopoi.care&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-85a533d2ffc1ee35800a9dc058d37c5885797f0a748ab9c1d261e8bf193bdf75"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Ngefilm.cs3",
-    "status": 1,
-    "version": 4,
-    "name": "Ngefilm",
-    "internalName": "Ngefilm",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film dan drama series subtitle Indonesia dari Ngefilm.",
-    "fileSize": 31851,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AsianDrama",
-      "TvSeries",
-      "Movie"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=new39.ngefilm.site&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-537679f1f45087dfdbf47aab21f46203125448406129872504b4e11ddb702223"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Nimegami.cs3",
-    "status": 1,
-    "version": 16,
-    "name": "Nimegami",
-    "internalName": "Nimegami",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime subtitle Indonesia dan download batch dari Nimegami.",
-    "fileSize": 35650,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=nimegami.id&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-9cb11072ed19f39455737f0d505dd3b8dc6c566881ea889f668de77933e9577d"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/NontonAnimeID.cs3",
-    "status": 1,
-    "version": 27,
-    "name": "NontonAnimeID",
-    "internalName": "NontonAnimeID",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton anime subtitle Indonesia terlengkap dan terupdate gratis dari NontonAnimeID.",
-    "fileSize": 33491,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=nontonanimeid.my.id&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-13c861446c061da0180aff153a567c349ec489c74e6306e72d911912ecd54855"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/NontonDrama.cs3",
-    "status": 1,
-    "version": 4,
-    "name": "NontonDrama",
-    "internalName": "NontonDrama",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming drama Asia, drama Korea, dan serial TV sub Indo dari NontonDrama (Dramamu).",
-    "fileSize": 29728,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AsianDrama",
-      "TvSeries"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=dramamu.lk21.de&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-9e59820cd273654dddc4a85f0d6e4685ff88b68c108d91d26325ce3c453530c5"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Oploverz.cs3",
-    "status": 1,
-    "version": 58,
-    "name": "Oploverz",
-    "internalName": "Oploverz",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton anime subtitle Indonesia dari Oploverz dengan pilihan kualitas video.",
-    "fileSize": 60670,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=oploverz.xin&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-b1cab387c6953c0c2d1b9f89877f12e9d144c55c8e7b941bfc150e9d23fef046"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Otakudesu.cs3",
-    "status": 1,
-    "version": 21,
-    "name": "Otakudesu",
-    "internalName": "Otakudesu",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming anime subtitle Indonesia terlengkap dan terupdate dari Otakudesu.",
-    "fileSize": 32478,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "Anime",
-      "OVA"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=otakudesu.blog&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-3b3bd6feb99500a3000937f526ea7bee108129213eb934a30e0266c7bdbb38b1"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Pencurimovie.cs3",
-    "status": 1,
-    "version": 8,
-    "name": "Pencurimovie",
-    "internalName": "Pencurimovie",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film dan serial subtitle Indonesia & Melayu dari Pencurimovie.",
-    "fileSize": 18067,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Movie",
-      "TvSeries",
-      "Anime",
-      "Cartoon"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=ww44.pencurimovie.baby&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-87fb44546d3019667fc89e70307d4933885f71d66b10826cac32d3959137e05f"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Pusatfilm.cs3",
-    "status": 1,
-    "version": 5,
-    "name": "Pusatfilm",
-    "internalName": "Pusatfilm",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film dan drama Asia subtitle Indonesia terlengkap dari Pusatfilm.",
-    "fileSize": 26960,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AsianDrama",
-      "TvSeries",
-      "Movie"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=pusatfilm.id&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-a19f5ed1e1a0efda747f7afe85c786aa55e10804714496b36aae457f7c2fabff"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/RaviFlix.cs3",
-    "status": 1,
-    "version": 8,
-    "name": "RaviFlix",
-    "internalName": "RaviFlix",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming film dan serial TV box office terlengkap dari RaviFlix.",
-    "fileSize": 30750,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "Movie",
-      "TvSeries",
-      "AsianDrama"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=raviflixx.blogspot.com&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-c5f3e7c9ca1ca901272e830417b0ee05ffd016063a38f1f1d9878f31797c28d3"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Samehadaku.cs3",
-    "status": 1,
-    "version": 29,
-    "name": "Samehadaku",
-    "internalName": "Samehadaku",
-    "authors": [
-      "TeKuma25"
-    ],
-    "description": "Nonton streaming dan download anime subtitle Indonesia terbaru dari Samehadaku.",
-    "fileSize": 22248,
-    "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
-    "language": "id",
-    "tvTypes": [
-      "AnimeMovie",
-      "OVA",
-      "Anime"
-    ],
-    "iconUrl": "https://www.google.com/s2/favicons?domain=v2.samehadaku.how&sz=%size%",
-    "apiVersion": 1,
-    "fileHash": "sha256-33e86918786443f72923d122db601b47de87c5caa1f0634d736c672b8efe816e"
-  }
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Anichin.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "Anichin",
+        "internalName": "Anichin",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime terlengkap dan terupdate dari Anichin.",
+        "fileSize": 29419,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=anichin.moe&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-f885adb8e70fdcef1682aff82823eb521e24380b0b34a085a1663e49dfefa777"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Animasu.cs3",
+        "status": 1,
+        "version": 18,
+        "name": "Animasu",
+        "internalName": "Animasu",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime subtitle Indonesia terlengkap dan terupdate dari Animasu.",
+        "fileSize": 36768,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animasu.me&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-be19c329668b91e08afe543298794f6e80e2f293092abf3bb219a644ce476d41"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/AnimeIndo.cs3",
+        "status": 1,
+        "version": 32,
+        "name": "AnimeIndo",
+        "internalName": "AnimeIndo",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime subtitle Indonesia terlengkap dan terupdate dari AnimeIndo.",
+        "fileSize": 27644,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=anime-indo.lol&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-c2f88928ca3c5a9a6acdb5cf1a46a89a38222665098a247eb4b59df682da9b77"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/AnimeSail.cs3",
+        "status": 1,
+        "version": 21,
+        "name": "AnimeSail",
+        "internalName": "AnimeSail",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime subtitle Indonesia terlengkap dari AnimeSail.",
+        "fileSize": 28861,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=anisail.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-69df3073a02c8a1119a50c5ae3b46b628f4af81109184fdca6daeee8f41ed7bc"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Anoboy.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "Anoboy",
+        "internalName": "Anoboy",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton anime subtitle Indonesia terlengkap dan terupdate dari Anoboy.",
+        "fileSize": 33236,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=anoboy.lat&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-d123faa6091dcd9d9bec9ca5972ca9d8557acce1b1350f42bdc4b1774b3cf05c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Budi.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "Budi",
+        "internalName": "Budi",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Koleksi buku video edukasi anak dan literasi digital dari BUDI Kemendikdasmen.",
+        "fileSize": 16973,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Movie"
+        ],
+        "iconUrl": "https://budi.kemendikdasmen.go.id/assets/images/logo/si-glen.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-8a868e01f6fc89e97793be79cedff369850ec4f9efdc24366ba7901415419137"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Cgvindo.cs3",
+        "status": 3,
+        "version": 2,
+        "name": "Cgvindo",
+        "internalName": "Cgvindo",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming movie terlengkap dan terupdate dari Cgvindo.",
+        "fileSize": 23275,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=167.172.35.72&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-a4ec043b48e4b994664f229f88143d107c785a9769d490a1d69be62fc4af0355"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dubbindo.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "Dubbindo",
+        "internalName": "Dubbindo",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton kartun, anime, dan serial dubbing Indonesia dari Dubbindo.",
+        "fileSize": 17270,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Cartoon",
+            "Anime"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.dubbindo.site&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-92257686d21d180f6160562968da4a59a8ff025ce99c03f4c09f14603375d0f9"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dutamovie.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "Dutamovie",
+        "internalName": "Dutamovie",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film bioskop sub Indo terlengkap dari DutaMovie.",
+        "fileSize": 32605,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=aubergedelavenir.com&sz=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-08e3b764eaafc5cf0cdc002e03a47aaabade264a7d32af447a7ee0b6257cb69e"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Gomov.cs3",
+        "status": 0,
+        "version": 39,
+        "name": "Gomov",
+        "internalName": "Gomov",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film dan serial drama terlengkap dan terupdate dari Gomov.",
+        "fileSize": 40196,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=gomov.top&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-c8449eed0b1db0644af47c95a21ab9778f4d89f484934d9d7ceaa25a4f2373bb"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Gomunime.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "Gomunime",
+        "internalName": "Gomunime",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime subtitle Indonesia terlengkap dari Gomunime.",
+        "fileSize": 25009,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=gomunime.top&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-b946791e43e4105e2dbcf2f563b66d3fb3e48dcde15f5518b460135dd836188c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Idlix.cs3",
+        "status": 1,
+        "version": 30,
+        "name": "Idlix",
+        "internalName": "Idlix",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film dan serial TV subtitle Indonesia terlengkap dari Idlix.",
+        "fileSize": 73983,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime",
+            "AsianDrama"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=z2.idlixku.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-02c94711ac68a4dda6a9f513b648b01edd423b20644dfe9f01da47d467167b35"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/IndoTV.cs3",
+        "status": 1,
+        "version": 10,
+        "name": "IndoTV",
+        "internalName": "IndoTV",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Siaran langsung saluran televisi nasional dan internasional Indonesia dari IndoTV.",
+        "fileSize": 21145,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-6b73fa46399deac0cb593ce6ee70b02a0884692cc057bb5a2c1a7b4415ab92a4"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kitanonton.cs3",
+        "status": 3,
+        "version": 2,
+        "name": "Kitanonton",
+        "internalName": "Kitanonton",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming movie dan serial drama terlengkap dan terupdate dari Kitanonton.",
+        "fileSize": 31669,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kitanonton2.beer&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-b85b7d884e32849eafffc0c31a50af8db28d498557b3eea4b69b2d4f7a016639"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kuramanime.cs3",
+        "status": 1,
+        "version": 43,
+        "name": "Kuramanime",
+        "internalName": "Kuramanime",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming dan download anime subtitle Indonesia kualitas tinggi dari Kuramanime.",
+        "fileSize": 44798,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kuramanime.ing&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-dde42338c97d1cbec571e3a0639feed327f1af3787dabb44fdc990905dd1b2fd"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Kuronime.cs3",
+        "status": 1,
+        "version": 24,
+        "name": "Kuronime",
+        "internalName": "Kuronime",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime subtitle Indonesia dan download batch dari Kuronime.",
+        "fileSize": 27060,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kuronime.sbs&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-7d641a0a9c84dffe862cdf4cb20b6cb86b1a635868e0b5ef51a5f6fc09ea5a7c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/LayarKaca.cs3",
+        "status": 1,
+        "version": 32,
+        "name": "LayarKaca",
+        "internalName": "LayarKaca",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film bioskop sub Indo terlengkap dan terupdate dari LayarKaca21 (LK21).",
+        "fileSize": 37628,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=lk21official.cc&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-cf39a0ce0884111f9a29e84ab6bdbfbc478181bb9013c69e9f25556f3a56ae35"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Minioppai.cs3",
+        "status": 1,
+        "version": 16,
+        "name": "Minioppai",
+        "internalName": "Minioppai",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming video anime dewasa subtitle Indonesia dari Minioppai.",
+        "fileSize": 31676,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "NSFW"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=minioppai.org&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-8a7b59f7299bb167bed7779d36ff6564be32cd78c619b7c994c83e4d0301eee4"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Nekopoi.cs3",
+        "status": 1,
+        "version": 14,
+        "name": "Nekopoi",
+        "internalName": "Nekopoi",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming video dan animasi dewasa sub Indo terlengkap dari Nekopoi.",
+        "fileSize": 34656,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "NSFW",
+            "Anime"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nekopoi.care&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-85a533d2ffc1ee35800a9dc058d37c5885797f0a748ab9c1d261e8bf193bdf75"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Ngefilm.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "Ngefilm",
+        "internalName": "Ngefilm",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film dan drama series subtitle Indonesia dari Ngefilm.",
+        "fileSize": 31851,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=new39.ngefilm.site&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-537679f1f45087dfdbf47aab21f46203125448406129872504b4e11ddb702223"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Nimegami.cs3",
+        "status": 1,
+        "version": 16,
+        "name": "Nimegami",
+        "internalName": "Nimegami",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime subtitle Indonesia dan download batch dari Nimegami.",
+        "fileSize": 35650,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nimegami.id&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-9cb11072ed19f39455737f0d505dd3b8dc6c566881ea889f668de77933e9577d"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/NontonAnimeID.cs3",
+        "status": 1,
+        "version": 27,
+        "name": "NontonAnimeID",
+        "internalName": "NontonAnimeID",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton anime subtitle Indonesia terlengkap dan terupdate gratis dari NontonAnimeID.",
+        "fileSize": 33491,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nontonanimeid.my.id&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-13c861446c061da0180aff153a567c349ec489c74e6306e72d911912ecd54855"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/NontonDrama.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "NontonDrama",
+        "internalName": "NontonDrama",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming drama Asia, drama Korea, dan serial TV sub Indo dari NontonDrama (Dramamu).",
+        "fileSize": 29728,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=dramamu.lk21.de&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-9e59820cd273654dddc4a85f0d6e4685ff88b68c108d91d26325ce3c453530c5"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Oploverz.cs3",
+        "status": 1,
+        "version": 58,
+        "name": "Oploverz",
+        "internalName": "Oploverz",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton anime subtitle Indonesia dari Oploverz dengan pilihan kualitas video.",
+        "fileSize": 60670,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=oploverz.xin&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-b1cab387c6953c0c2d1b9f89877f12e9d144c55c8e7b941bfc150e9d23fef046"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Otakudesu.cs3",
+        "status": 1,
+        "version": 21,
+        "name": "Otakudesu",
+        "internalName": "Otakudesu",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime subtitle Indonesia terlengkap dan terupdate dari Otakudesu.",
+        "fileSize": 32478,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=otakudesu.blog&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-3b3bd6feb99500a3000937f526ea7bee108129213eb934a30e0266c7bdbb38b1"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Pencurimovie.cs3",
+        "status": 1,
+        "version": 8,
+        "name": "Pencurimovie",
+        "internalName": "Pencurimovie",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film dan serial subtitle Indonesia & Melayu dari Pencurimovie.",
+        "fileSize": 18067,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=ww44.pencurimovie.baby&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-87fb44546d3019667fc89e70307d4933885f71d66b10826cac32d3959137e05f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Pusatfilm.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "Pusatfilm",
+        "internalName": "Pusatfilm",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film dan drama Asia subtitle Indonesia terlengkap dari Pusatfilm.",
+        "fileSize": 26960,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=pusatfilm.id&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-a19f5ed1e1a0efda747f7afe85c786aa55e10804714496b36aae457f7c2fabff"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/RaviFlix.cs3",
+        "status": 1,
+        "version": 8,
+        "name": "RaviFlix",
+        "internalName": "RaviFlix",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film dan serial TV box office terlengkap dari RaviFlix.",
+        "fileSize": 30750,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=raviflixx.blogspot.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-c5f3e7c9ca1ca901272e830417b0ee05ffd016063a38f1f1d9878f31797c28d3"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Rebahin.cs3",
+        "status": 3,
+        "version": 17,
+        "name": "Rebahin",
+        "internalName": "Rebahin",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming film dan drama Asia terlengkap dari Rebahin.",
+        "fileSize": 34086,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "Anime",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=rebahinxxi3.mom&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-0c06e9d4f2ed46d1b694a4b7942854942f27841d19a90905d6853c9290fd95fc"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Samehadaku.cs3",
+        "status": 1,
+        "version": 29,
+        "name": "Samehadaku",
+        "internalName": "Samehadaku",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming dan download anime subtitle Indonesia terbaru dari Samehadaku.",
+        "fileSize": 22248,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=v2.samehadaku.how&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-33e86918786443f72923d122db601b47de87c5caa1f0634d736c672b8efe816e"
+    }
 ]
