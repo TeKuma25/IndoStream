@@ -4,17 +4,6 @@ Repositori resmi ekstensi penyedia media (streaming film, serial TV, dan anime) 
 
 ---
 
-### ☕ Dukung Pemeliharaan & Pengembangan (Donasi)
-Jika Anda merasa repositori IndoStream bermanfaat dan ingin mendukung perawatannya:
-
-[![Saweria](https://img.shields.io/badge/Saweria-Dukung%20Kopi-FFA500?style=for-the-badge&logo=ko-fi&logoColor=white)](https://saweria.co/tekuma25)
-[![Trakteer](https://img.shields.io/badge/Trakteer-Traktir%20Kopi-BE1E2D?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://trakteer.id/tekuma25)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Creator-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/tekuma25)
-
-*Dukungan Anda sangat berarti untuk biaya riset, kuota, dan pemeliharaan server.*
-
----
-
 ## 🚀 Cara Pemasangan di Aplikasi CloudStream
 
 1. Buka aplikasi **CloudStream 3** di perangkat Android / Android TV Anda.
