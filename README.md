@@ -55,6 +55,7 @@ Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang t
 | **NontonAnimeID** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **NontonDrama** | AsianDrama, TvSeries | 🟢 Normal | Tersedia streaming lancar |
 | **Oploverz** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
+| **Oppadrama** | AsianDrama, Movie | 🟢 Normal | Tersedia streaming lancar |
 | **Otakudesu** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Pencurimovie** | Movie, TvSeries, Anime, Cartoon | 🟢 Normal | Tersedia streaming lancar |
 | **Pusatfilm** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
