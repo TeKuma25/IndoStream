@@ -150,6 +150,27 @@
         "fileHash": "sha256-a4ec043b48e4b994664f229f88143d107c785a9769d490a1d69be62fc4af0355"
     },
     {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/DramaQu.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "DramaQu",
+        "internalName": "DramaQu",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming drama Korea, drama Asia, dan film subtitle Indonesia terupdate dari DramaQu.",
+        "fileSize": 24958,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=dramaqu.ad&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-ded78e8edf712806a89113f05a882678111c5b58e44977b180f3d763dec561a5"
+    },
+    {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Dubbindo.cs3",
         "status": 1,
         "version": 5,
