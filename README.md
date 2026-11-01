@@ -40,6 +40,7 @@ Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang t
 | **AnimeSail** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Anoboy** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Budi** | Movie | 🟢 Normal | Tersedia streaming lancar |
+| **DramaQu** | AsianDrama, Movie | 🟢 Normal | Tersedia streaming lancar |
 | **Dubbindo** | TvSeries, Movie, Cartoon, Anime | 🟢 Normal | Tersedia streaming lancar |
 | **Dutamovie** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
 | **Gomunime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
