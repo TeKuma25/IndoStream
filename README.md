@@ -59,8 +59,6 @@ Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang t
 | **Oppadrama** | AsianDrama, Movie | 🟢 Normal | Tersedia streaming lancar |
 | **Otakudesu** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Pencurimovie** | Movie, TvSeries, Anime, Cartoon | 🟢 Normal | Tersedia streaming lancar |
-| **Pusatfilm** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
-| **RaviFlix** | Movie, TvSeries, AsianDrama | 🟢 Normal | Tersedia streaming lancar |
 | **Samehadaku** | AnimeMovie, OVA, Anime | 🟢 Normal | Tersedia streaming lancar |
 
 ---
