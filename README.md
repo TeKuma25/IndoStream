@@ -49,6 +49,7 @@ Berikut adalah ringkasan status operasional terkini dari seluruh ekstensi yang t
 | **Kuramanime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Kuronime** | AnimeMovie, Anime, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **LayarKaca** | Movie | 🟢 Normal | Tersedia streaming lancar |
+| **Layaranime** | Anime, AnimeMovie, OVA | 🟢 Normal | Tersedia streaming lancar |
 | **Minioppai** | NSFW | 🟢 Normal | Tersedia streaming lancar |
 | **Nekopoi** | NSFW, Anime | 🟢 Normal | Tersedia streaming lancar |
 | **Ngefilm** | AsianDrama, TvSeries, Movie | 🟢 Normal | Tersedia streaming lancar |
