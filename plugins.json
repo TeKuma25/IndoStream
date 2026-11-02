@@ -368,6 +368,28 @@
         "fileHash": "sha256-690296d64fbb517c555d2d8d113183287adaf82b7a1de0131fb9e3ac367e38aa"
     },
     {
+        "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Layaranime.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Layaranime",
+        "internalName": "Layaranime",
+        "authors": [
+            "TeKuma25"
+        ],
+        "description": "Nonton streaming anime terlengkap dan terupdate dari Layaranime.",
+        "fileSize": 19105,
+        "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=layaranime.net&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-e6d3f952b3ff72cf6423883ea1f2e88f1abd3e9ee9edbbbc6f3bf73d90ee1228"
+    },
+    {
         "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/LayarKaca.cs3",
         "status": 1,
         "version": 32,
