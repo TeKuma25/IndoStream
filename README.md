@@ -13,7 +13,7 @@ Repositori resmi ekstensi penyedia media (streaming film, serial TV, dan anime) 
    - **Repository Name**: `IndoStream`
    - **Repository URL**:
      ```text
-     https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/plugins.json
+     https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/repo.json
      ```
 5. Tekan **Download / Tambah**, lalu instal modul ekstensi yang Anda inginkan.
 
