@@ -441,7 +441,7 @@
       "TeKuma25"
     ],
     "description": "Nonton anime subtitle Indonesia terlengkap dan terupdate gratis dari NontonAnimeID.",
-    "fileSize": 36266,
+    "fileSize": 36113,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -451,7 +451,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=nontonanime.id&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-56c1c57a53c68b0ed00c910b397b9c8d2129ce2fbea03cc34f179c7f2a2e2c24"
+    "fileHash": "sha256-24b547c87dd68d1a28cb6e3bef3b56a332e6772db49a5da8ceda67f3b131fa40"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/NontonDrama.cs3",
