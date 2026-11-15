@@ -24,7 +24,7 @@ Jika Anda merasa repositori IndoStream bermanfaat dan ingin mendukung perawatann
    - **Repository Name**: `IndoStream`
    - **Repository URL**:
      ```text
-     https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/plugins.json
+     https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/repo.json
      ```
 5. Tekan **Download / Tambah**, lalu instal modul ekstensi yang Anda inginkan.
 
