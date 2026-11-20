@@ -369,14 +369,14 @@
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Nekopoi.cs3",
     "status": 1,
-    "version": 15,
+    "version": 16,
     "name": "Nekopoi",
     "internalName": "Nekopoi",
     "authors": [
       "TeKuma25"
     ],
     "description": "Nonton streaming video dan animasi dewasa sub Indo terlengkap dari Nekopoi.",
-    "fileSize": 34974,
+    "fileSize": 52998,
     "repositoryUrl": "https://github.com/TeKuma25/IndoStream",
     "language": "id",
     "tvTypes": [
@@ -385,7 +385,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=nekopoi.care&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-2b26907e59dc4da491d44782711f359c1fa0558d82a64e7ae904bb27cdb14f6f"
+    "fileHash": "sha256-6a48613e149a1cd51ae6ed1a8630ff920b8d271b84a6d6b82cf20ddc3e40b4d8"
   },
   {
     "url": "https://raw.githubusercontent.com/TeKuma25/IndoStream/builds/Ngefilm.cs3",
